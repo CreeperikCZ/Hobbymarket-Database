@@ -1,0 +1,14 @@
+USE Wild_HobbyMarket;
+DROP TABLE produkty_na_prodejnach;
+DROP TABLE objednane_produkty;
+DROP TABLE objednavka;
+DROP TABLE zakaznik;
+DROP TABLE produkt;
+DROP TABLE kategorie;
+SET FOREIGN_KEY_CHECKS = 0;
+DROP TABLE oddeleni_na_prodejne;
+DROP TABLE zamestnanec;
+SET FOREIGN_KEY_CHECKS = 1;
+DROP TABLE oddeleni;
+DROP TABLE prodejna;
+DROP DATABASE wild_hobbymarket;
